@@ -1,0 +1,51 @@
+<section class="settings">
+  <h2 class="settings-heading">Settings for Status Timestamp Plug-in</h2>
+  <p class="kintoneplugin-desc">This plug-in inserts the datetime that a record reached a specified Status into a Datetime field.</p>
+    <!-- Datetime field settings -->
+    <div class="block">  
+      <p class="kintoneplugin-row">
+        <label class="kintoneplugin-label">
+          Datetime Field:
+        </label>
+      </p>
+      <p class="kintoneplugin-row">
+          Select a datetime field to show the timestamp in.
+      </p>
+      <p>
+        <div class="kintoneplugin-select-outer">
+          <div class="kintoneplugin-select">
+            <select id="select_datetime_field" name="select_datetime_field">
+              <option>-----</option>
+            </select>
+          </div>
+        </div>
+      </p>
+    </div>
+    <!-- Status settings -->
+    <div class="block">  
+      <p class="kintoneplugin-row">
+        <label class="kintoneplugin-label">
+          Status:
+        </label>
+      </p>
+      <p class="kintoneplugin-row">
+          Select a status to record the timestamp of.
+      </p>
+      <p>
+        <div class="kintoneplugin-select-outer">
+          <div class="kintoneplugin-select">
+            <select id="select_status" name="select_status">
+              <option>-----</option>
+            </select>
+          </div>
+        </div>
+      </p>
+    </div>
+    <!-- Cancel and Save buttons -->
+    <div class="block">
+      <p class="kintoneplugin-row">
+          <button type="button" id="settings-cancel" class="kintoneplugin-button-dialog-cancel">Cancel</button>
+          <button type="submit" id="settings-save" class="kintoneplugin-button-dialog-ok">Save</button>
+      </p>
+    </div>
+</section>
