@@ -1,3 +1,8 @@
+/*
+MIT License
+Copyright (c) 2019 Cybozu
+https://github.com/kintone/SAMPLE-Status-timestamp-plug-in/blob/master/LICENSE
+*/
 (function(PLUGIN_ID) {
   'use strict';
 
