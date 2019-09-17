@@ -18,7 +18,7 @@ src/
 └── js/  
 │        └──── config.js  
 │        └──── desktop.js 
-│        └──── kintone-config-helper.js 
+│        └──── kintone-config-helper.js  
 └── image/  
 │        └──── clock.png  
 └── manifest.json  
